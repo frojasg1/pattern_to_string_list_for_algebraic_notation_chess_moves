@@ -141,13 +141,17 @@ The script works taking two kind of parameters:
         <value every_char="true">♔♕♖♗♘</value>
       </block>
 ```
+
     * Example-2: (for English algebraic notation)
+    
 ```
       <block name="figurine">
         <value every_char="true">KQRBN</value>
       </block>
 ```
+
     * Example-2: (for Spanish algebraic notation)
+    
 ```
       <block name="figurine">
         <value every_char="true">RDTAC</value>
