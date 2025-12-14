@@ -13,7 +13,7 @@ I need that for tuning the dictionary of an OCR (pytesseract, in this case) by a
 
 This will be used for helping to recognize better those "word" options when used in combination with my application ChessPdfBrowser.
 
-The new function I am currently programming, is to create a library which will able to work with scanned Pdfs, offering similar functionality that when using pdfbox library for regular Pdfs
+The new function I am currently programming, is to create a library which will able to work with scanned Pdfs, offering a similar functionality that when using pdfbox library for regular Pdfs
 
 So the aim of this script, is to create a super set of all possible "words" in a chess game written in algebraic notation.
 
