@@ -85,7 +85,7 @@ The script works taking two kind of parameters:
     <pattern>${castle}${check_or_checkmate}?${nag}?</pattern>
 ```
 
-- default_values, particular_values. Xmls having
+- default_values, particular_values. Xmls having the value elements for every block defined in the patterns
 
   * default_values. The idea is having a xml with the default values (which are general and not particular of the language or the notation).
 
