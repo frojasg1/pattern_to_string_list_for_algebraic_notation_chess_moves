@@ -9,9 +9,9 @@ Python script for creating a list of strings as resulting in combining blocks in
 
 The aim of this script, is to create all possible words for chess moves in algebraic notation.
 
-I need that for tuning the dictionary of an OCR (pytesseract, in this case) adding those new words to the dictionary.
+I need that for tuning the dictionary of an OCR (pytesseract, in this case) by adding those new words to the dictionary.
 
-This will be used for helping to recognize better those "word" options when used in combination of my application ChessPdfBrowser.
+This will be used for helping to recognize better those "word" options when used in combination with my application ChessPdfBrowser.
 
 The new function I am currently programming, is to create a library which will able to work with scanned Pdfs, offering similar functionality that when using pdfbox library for regular Pdfs
 
