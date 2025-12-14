@@ -21,15 +21,15 @@ Those words, will be depending on the language, as the letters to dessignate che
 
 ("KQRBN" for English, "RDTAC" for Spanish, ...)
 
-So the dictionaries of all supported languages, have to be tunned adding the chess moves.
+So the OCR dictionaries of all supported languages, have to be tunned adding the chess moves.
 
-I am planning to do that in the creation of a Docker image I am using in a server in the cloud.
+I am planning to do that OCR dictionary tunning in the creation of a Docker image I am using in a server in the cloud.
 
-That Docker will be exposing a rest api, which will accept a file with the image, and a language name to be used, and returns a json with the result of the recogition.
+That Docker will be exposing a rest api, which will accept a file with the image, and a language name to be used, and will return a json with the result of the OCR recogition.
 
-Then, ChessPdfBrowser users (ChessPdfBrowser is a java desktop application), will be able to use that resource, and experience a (hopefully) equivalent functionality when working with scanned Pdfs, than when using not scanned ones.
+Then, ChessPdfBrowser users (ChessPdfBrowser is a Java desktop application), will be able to use that resource, and experience a (hopefully) equivalent functionality when working with scanned Pdfs, than when using pdfbox library when working with not scanned ones.
 
-Then, the aim is to create all possible "words" (or a super set of them) in a chess game written in algebraic notation for every of the supported languages.
+Then, the aim of this repository, is to program a script for creating all possible "words" (or a super set of them) in a chess game written in algebraic notation for every of the supported languages.
 
 
 ## How the script works
@@ -38,13 +38,13 @@ The strategy will be creating a generic script, and then particularize it with c
 
 
 
-### Processing
+### Processing in a nutshell
 
 The script will take two kind of inputs:
 
 - A file with the definitions of the patterns built of blocks, which might contain several options.
 
-- One or more files with de list of the elements of every block. In global all the blocks must be defined for the script to work.
+- One or more files with de list of the elements of every block. After combining all those files, all blocks used in the patterns must be defined for the script to work.
 
 Then the idea is easy: creating all combinations of block elements of every configured pattern.
 
