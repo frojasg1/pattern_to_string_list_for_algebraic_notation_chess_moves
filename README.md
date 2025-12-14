@@ -72,6 +72,7 @@ The script works taking two kind of parameters:
   Each pattern must follow a format.
 
   * Examples of patterns (applied to create a super set of all chess moves words in algebraic notation):
+```
     <!-- normal figurine move -->
     <pattern>${figurine}${take}?${column}${row}${check_or_checkmate}?${nag}?</pattern>
     <!-- figurine move, including unambiguation (super set, some of them are illegal) -->
@@ -82,13 +83,14 @@ The script works taking two kind of parameters:
     <pattern>${${column}${take}}?${column}${row_for_promotion}${promotion}?${figurine}${check_or_checkmate}?${nag}?</pattern>
     <!-- castling -->
     <pattern>${castle}${check_or_checkmate}?${nag}?</pattern>
+```
 
 - default_values, particular_values. Xmls having
 
   * default_values. The idea is having a xml with the default values (which are general and not particular of the language or the notation).
 
     * Examples:
-
+```
       <!-- indicating whether is a taking move -->
       <block name="take">
         <value>x</vaue>
@@ -129,24 +131,25 @@ The script works taking two kind of parameters:
         <value>O-O</value>
         <value>O-O-O</value>
       </block>
+```
 
   * particular_values. The idea is defining the not defined block value at default_values xml file, or defining other values which override the default_values.
 
     * Example-1: (for figurine algebraic notation)
-
+```
       <block name="figurine">
         <value every_char="true">♔♕♖♗♘</value>
       </block>
-
+```
     * Example-2: (for English algebraic notation)
-
+```
       <block name="figurine">
         <value every_char="true">KQRBN</value>
       </block>
-
+```
     * Example-2: (for Spanish algebraic notation)
-
+```
       <block name="figurine">
         <value every_char="true">RDTAC</value>
       </block>
-
+```
