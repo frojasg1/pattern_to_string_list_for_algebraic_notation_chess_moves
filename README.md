@@ -133,7 +133,7 @@ The script works taking two kind of parameters:
       </block>
 ```
 
-  * particular_values. The idea is defining the not defined block value at default_values xml file, or defining other values which override the default_values.
+  * particular_values. The idea is defining the not defined block value at default_values xml file, or defining other values which will override the default_values.
 
     * Example-1: (for figurine algebraic notation)
 ```
