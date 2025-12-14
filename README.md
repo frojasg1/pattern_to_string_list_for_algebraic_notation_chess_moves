@@ -130,23 +130,23 @@ The script works taking two kind of parameters:
         <value>O-O-O</value>
       </block>
 
-    * particular_values. The idea is defining the not defined block value at default_values xml file, or defining other values which override the default_values.
+  * particular_values. The idea is defining the not defined block value at default_values xml file, or defining other values which override the default_values.
 
-      * Example-1: (for figurine algebraic notation)
+    * Example-1: (for figurine algebraic notation)
 
-        <block name="figurine">
-          <value every_char="true">♔♕♖♗♘</value>
-        </block>
+      <block name="figurine">
+        <value every_char="true">♔♕♖♗♘</value>
+      </block>
 
-      * Example-2: (for English algebraic notation)
+    * Example-2: (for English algebraic notation)
 
-        <block name="figurine">
-          <value every_char="true">KQRBN</value>
-        </block>
+      <block name="figurine">
+        <value every_char="true">KQRBN</value>
+      </block>
 
-      * Example-2: (for Spanish algebraic notation)
+    * Example-2: (for Spanish algebraic notation)
 
-        <block name="figurine">
-          <value every_char="true">RDTAC</value>
-        </block>
+      <block name="figurine">
+        <value every_char="true">RDTAC</value>
+      </block>
 
