@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf8'?>
+<config>
+  <block name="figurine">
+    <value every_char="True">RDTAC</value>
+  </block>
+  <block name="figurine_for_disambiguation">
+    <value every_char="True">TC</value>
+  </block>
+</config>

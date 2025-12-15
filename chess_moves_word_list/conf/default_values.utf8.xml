@@ -1,0 +1,59 @@
+<config>
+      <block name="dollar">
+        <value>$</value>
+      </block>
+
+      <block name="opening_brace">
+        <value>{</value>
+      </block>
+
+      <block name="closing_brace">
+        <value>}</value>
+      </block>
+
+      <block name="question_mark">
+        <value>?</value>
+      </block>
+
+      <!-- indicating whether is a taking move -->
+      <block name="take">
+        <value>x</vaue>
+      </block>
+
+      <block name="column">
+        <value every_char="True">abcdefgh</value>
+      </block>
+
+      <block name="row">
+        <value every_char="True">12345678</value>
+      </block>
+
+      <block name="check_or_checkmate">
+        <value>+</value>
+        <value>++</value>
+        <value>#</value> <!-- checkmate -->
+      </block>
+
+      <block name="nag">
+        <value>??</value>
+        <value>?</value>
+        <value>?!</value>
+        <value>!?</value>
+        <value>!</value>
+        <value>!!</value>
+      </block>
+
+      <block name="promotion">
+        <value>=</value>
+      </block>
+
+      <block name="row_for_promotion">
+        <value every_char="True">18</value>
+      </block>
+
+      <block name="castle">
+        <value>O-O</value>
+        <value>O-O-O</value>
+      </block>
+</config>
+

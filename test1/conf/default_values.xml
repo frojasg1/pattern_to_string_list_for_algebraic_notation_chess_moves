@@ -1,0 +1,8 @@
+<config>
+    <block name="block1">
+        <value every_char="True">123</value>
+    </block>
+    <block name="block2">
+        <value>block2</value>
+    </block>
+</config>

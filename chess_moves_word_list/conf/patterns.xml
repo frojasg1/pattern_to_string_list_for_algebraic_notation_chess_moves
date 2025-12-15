@@ -1,0 +1,19 @@
+<config>
+    <!-- figurine move, including disambiguation (super set, some of them are illegal) -->
+<!-- more complete pattern for disambiguation: but produces an extremely large number of combinations. disabling
+    <pattern>${figurine}${${column}?${row}?}?${take}?${column}${row}${check_or_checkmate}?${nag}?</pattern>
+-->
+    <!-- simplified pattern for disambiguation (removing the least common) -->
+<!-- still too many. disabling
+    <pattern>${figurine_for_disambiguation}${${column}?${row}?}?${take}?${column}${row}</pattern>
+-->
+    <!-- figurine moves (without disambiguation) -->
+    <pattern>${figurine}${take}?${column}${row}${check_or_checkmate}?${nag}?</pattern>
+    <!-- pawn move (super set, some of them are illegal) -->
+    <pattern>${${column}${take}}?${column}${row}${check_or_checkmate}?${nag}?</pattern>
+    <!-- pawn promotion (super set, some of them are illegal) -->
+    <pattern>${${column}${take}}?${column}${row_for_promotion}${promotion}?${figurine}${check_or_checkmate}?${nag}?</pattern>
+    <!-- castling -->
+    <pattern>${castle}${check_or_checkmate}?${nag}?</pattern>
+</config>
+
