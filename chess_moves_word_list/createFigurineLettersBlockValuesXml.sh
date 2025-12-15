@@ -38,7 +38,7 @@ fi
 SCRIPT_DIR="$( dirname "$0" )"
 
 
-../src/simple_block_values_xml_config_creator.py \
+../src/block_values_xml_config_creator.py \
     -block_values \
         "figurine:$FIGURINE_LETTERS" \
         "figurine_for_disambiguation:$FIGURINE_LETTERS_FOR_DISAMBIGUATION"
