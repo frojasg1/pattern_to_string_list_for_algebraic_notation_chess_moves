@@ -331,14 +331,4 @@ def main(args: list):
 
 if __name__ == "__main__":
     args = sys.argv
-#    args = [
-#        "-patterns_xml", r"J:\N\java\Aplicaciones\_new.github\20251214.chess_moves_word_list\chess_moves_word_list\conf\patterns.xml",
-#        "-block_values_xmls", r"J:\N\java\Aplicaciones\_new.github\20251214.chess_moves_word_list\chess_moves_word_list\conf\default_values.xml",
-#            r"J:\N\java\Aplicaciones\_new.github\20251214.chess_moves_word_list\chess_moves_word_list\conf\figurine_letters_spanish_example.xml"
-#    ]
-    args = [
-        "-patterns_xml", r"J:\N\java\Aplicaciones\_new.github\20251214.chess_moves_word_list\test1\conf\patterns.xml",
-        "-block_values_xmls", r"J:\N\java\Aplicaciones\_new.github\20251214.chess_moves_word_list\test1\conf\default_values.xml"
-    ]
     main(args)
-
