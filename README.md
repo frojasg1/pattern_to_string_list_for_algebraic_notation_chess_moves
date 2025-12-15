@@ -78,7 +78,7 @@ The script works taking two kind of parameters:
     <!-- figurine move, including unambiguation (super set, some of them are illegal) -->
     <pattern>${figurine}${${column}?${row}?}?${take}?${column}${row}${check_or_checkmate}?${nag}?</pattern>
     <!-- pawn move (super set, some of them are illegal) -->
-    <pattern>${${column}${take}}?${column}{row}{check_of_checkmate}?${nag}?</pattern>
+    <pattern>${${column}${take}}?${column}${row}${check_of_checkmate}?${nag}?</pattern>
     <!-- pawn promotion (super set, some of them are illegal) -->
     <pattern>${${column}${take}}?${column}${row_for_promotion}${promotion}?${figurine}${check_or_checkmate}?${nag}?</pattern>
     <!-- castling -->
