@@ -2,8 +2,6 @@
 Python script for creating a list of strings as resulting in combining a number of blocks in the configured string patterns, which will be applied for creating a super set of all chess algebraic notation moves
 
 
-# UNDER CONSTRUCTION
-
 
 ## Motivation
 
