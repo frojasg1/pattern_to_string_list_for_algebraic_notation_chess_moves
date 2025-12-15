@@ -40,7 +40,7 @@ The strategy will be creating a generic script, and then particularize it with c
 
 The script will take two kind of inputs:
 
-- A file with the definitions of the patterns built of blocks, which might contain several options.
+- A file with the definitions of the patterns built of blocks, each of which might contain several options.
 
 - One or more files with de list of the elements of every block. After combining all those files, all blocks used in the patterns must be defined for the script to work.
 
